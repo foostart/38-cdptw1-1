@@ -1,0 +1,99 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.login-block {
+  background: -webkit-linear-gradient(to bottom,#ffb88c,#de6262);
+  background: #de6262;
+  background: linear-gradient(to bottom,#ffb88c,#de6262);
+  float: left;
+  padding: 50px 0;
+  width: 100%;
+}
+.banner-sec {
+  background-size: cover;
+  background: url(https://static.pexels.com/photos/33972/pexels-photo.jpg) no-repeat left bottom;
+  border-radius: 0 10px 10px 0;
+  min-height: 500px;
+  padding: 0;
+}
+.container {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 20px 20px 0px rgba(0,0,0,0.1);
+}
+.carousel-inner {
+  border-radius: 0 10px 10px 0;
+}
+.carousel-caption {
+  left: 5%;
+  text-align: left;
+}
+.login-sec {
+  padding: 50px 30px;
+  position: relative;
+}
+.login-sec h2 {
+  color: #de6262;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.login-sec h2:after {
+  background: #feb58a;
+  border-radius: 3px;
+  content: " ";
+  display: block;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 100px;
+}
+.btn-login {
+  background: #de6262;
+  color: #ffffff;
+  font-weight: 600;
+}
+.banner-text {
+  bottom: 40px;
+  padding-left: 20px;
+  position: absolute;
+  width: 70%;
+}
+.banner-text h2 {
+  color: #ffffff;
+  font-weight: 600;
+}
+.banner-text h2:after {
+  background: #ffffff;
+  border-radius: 3px;
+  content: " ";
+  display: block;
+  height: 5px;
+  margin-top: 20px;
+  width: 100px;
+}
+.banner-text p {
+  color: #ffffff;
+  text-align: justify;
+}
+.img-fluid {
+  height: 532px !important;
+  width: 760px !important;
+}
+.copyright-text {
+  bottom: 20px;
+  font-size: 13px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2px;
+  position: absolute;
+  text-align: center;
+}
+.copyright-text i {
+  color: #feb58a;
+}
+.copyright-text a {
+  color: #feb58a;
+}
