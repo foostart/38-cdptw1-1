@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 1, 2017, 9:22:52 AM
+    Author     : Administrator
+*/
+@background-color: #FFF;
+@font-size: 13px;
+@color: #73879C;
+@border-color: #E6E9ED;
+@margin-bottom: 10px;
+@display: block;
+@list-style: none;
+@border-color-h2: #e0e0e0;
+
+.type-11 {
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+
+    .admin-panel {
+        width: 100%;
+        padding: 10px 17px;
+        display: inline-block;
+        background: @background-color;
+        border: 1px solid @border-color;
+        opacity: 1;
+        transition: all .2s ease;
+        margin-bottom: @margin-bottom;
+        position: relative;
+        margin-top: 20px;
+        .admin-title {
+            border-bottom: 2px solid @border-color;
+            padding: 1px 5px 6px;
+            margin-bottom: @margin-bottom;
+
+            h2 {
+                margin: 5px 0 6px;
+                float: left;
+                display: @display;
+                font-size: 20px;
+                color: @color;
+
+                small {
+                    margin-left: 10px;
+                    font-size: @font-size;
+                }
+            }
+
+            ul {
+                min-width: 70px;
+                list-style: @list-style;
+                margin-top: 5px;
+                float: right;
+                .collapse-link, .close-link {
+                    opacity: 1;
+                }
+            }
+            ul > li {
+                float: left;
+                cursor: pointer;
+            }
+            ul > li > a {
+                padding: 5px;
+                color: #C5C7CB;
+                font-size: @font-size;
+            }
+        }
+        .admin-content {
+            padding: 0 5px 6px;
+            float: left;
+            margin-top: 5px;
+            width: 100%;
+
+            .info-progress {
+                .progress {
+                    height: 10px;
+                    .progress-bar {
+                        height: 10px!important; 
+                    }
+                }
+            }
+
+            h2 {
+                font-size: 14px;
+                border-bottom: 2px solid @border-color-h2;
+                border-top: 2px solid @border-color-h2;
+                text-align: center;
+                padding: 5px 0;
+            }
+            h4 { 
+                font-size: @font-size;
+                color: @color;
+            }
+            #partly-cloudy-day, #snow, #sleet, #cloudy {
+                display: @display;
+            }
+            #clear-day {
+                display: @display;
+            }
+            .title-weather {
+                margin: 10px 0;
+                .title {
+                    font-size: 20px;
+                }
+            }
+
+            .info-progress {
+                color: @color;
+                #chartColumnContainer {
+                    width: 100%;
+                    height: 200px;
+                }
+                span.right {
+                    float: right;
+                }
+            }                
+            table {
+                th {
+                    p {
+                        color: @color;
+
+                    }
+                }
+            }
+
+            ul {
+                width: 45%;
+                padding-left: 0;
+                float: left;
+                list-style: @list-style;
+                padding: 0px;
+                li {
+                    padding-left: 10px;
+                    list-style: @list-style;
+                    margin: 0;
+                    padding-bottom: 6px;
+                    padding-top: 4px;
+                }
+                li i {
+                    padding-right: 10px;
+                    color: @color;
+                }
+                a{
+                    color: #5A738E;
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: #23527c;
+
+                }
+            }
+            .sidebar-widget {
+                background: @background-color;
+                border: 1px solid #abd9ea;
+                border-radius: 5px;
+                text-align: center;
+                float: right;
+                padding: 2px;
+                h4
+                {
+                    font-size: @font-size;
+                    font-weight: 500;
+                }
+
+                #jqRadialGauge {
+                    width: 150px; 
+                    height: 80px;
+                }
+            }
+        }
+    }
+
+
+}
