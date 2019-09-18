@@ -1,6 +1,6 @@
 .type {
-  padding: 10px 20px 0;
   margin-top: 15%;
+  width: 100%;
 }
 .type .row span,
 .type .row h3 {
@@ -16,30 +16,13 @@
 .type .row #chartContainer2,
 .type .row #chartContainer3,
 .type .row #chartContainer4 {
-  height: 120px;
+  height: 150px;
 }
-@media only screen and (max-width: 480px) {
-  .type .row {
-    margin-right: -60px;
-    margin-left: -11px;
-  }
-  .type .row span {
-    font-size: 5px;
-  }
-  .type .row h3 {
-    font-size: 10px;
-    line-height: 10px;
-    margin: 0 11px;
-  }
-  .type .row #chartContainer1,
-  .type .row #chartContainer2,
-  .type .row #chartContainer3,
-  .type .row #chartContainer4 {
-    height: 65px;
-    width: 75px;
-    font-size: 5px;
-  }
-  .type .row .col-md-3.col-sm-3.col-xs-6 {
-    width: 20%;
+@media only screen and (max-width: 414px) {
+  #chartContainer1,
+  #chartContainer2,
+  #chartContainer3,
+  #chartContainer4 {
+    height: 150px !important;
   }
 }

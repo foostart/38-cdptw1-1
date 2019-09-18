@@ -3,7 +3,7 @@
 @color0: #de6262; 
 @color1: #ffffff; 
 @color2: #feb58a; 
-@color3: #ffb88c; 
+@color3: #ffb88c;
 
 @width0: 100px;
 @height0: 5px;
@@ -20,7 +20,7 @@
 
 .banner-sec {
 	background-size: cover;
-	background: url(https://static.pexels.com/photos/33972/pexels-photo.jpg) no-repeat left bottom;
+	//background: url(https://static.pexels.com/photos/33972/pexels-photo.jpg) no-repeat left bottom;
 	border-radius: 0 10px 10px 0;
 	min-height: 500px;
 	padding: 0;
@@ -62,6 +62,11 @@
 	color: @color1;
 	font-weight: 600;
 }
+.btn-login:hover {
+	background: @color2;
+	color: @color1;
+	font-weight: 600;
+}
 .banner-text {
 	bottom: 40px;
 	padding-left: 20px;
@@ -90,7 +95,7 @@
 	width: 760px !important;
 }
 .copyright-text {
-	bottom: 20px;
+	bottom: -33%;
 	font-size: 13px;
 	left: 0;
 	right: 0;
@@ -100,9 +105,33 @@
 	position: absolute;
 	text-align: center;
 	i {
-		color: @color2;
+		color: @color0 !important;
 	}
 	a {
-		color: @color2;
+		color: @color0 !important;
 	}
+        a:hover {
+		color: @color2 !important;
+                 text-decoration: none;
+	}
+}
+
+@media only screen and (max-width: 480px){
+    .img-fluid {
+	height: 386px !important;
+	width: 100% !important;
+    }
+    .banner-sec {
+            background-size: cover;
+    border-radius: 0 10px 10px 0;
+    min-height: 387px;
+    padding: 0;
+    }
+    .container {
+	box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.copyright-text {
+    bottom: 2%;
+}
+    
 }

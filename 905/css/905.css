@@ -9,7 +9,6 @@
 }
 .banner-sec {
   background-size: cover;
-  background: url(https://static.pexels.com/photos/33972/pexels-photo.jpg) no-repeat left bottom;
   border-radius: 0 10px 10px 0;
   min-height: 500px;
   padding: 0;
@@ -51,6 +50,11 @@
   color: #ffffff;
   font-weight: 600;
 }
+.btn-login:hover {
+  background: #feb58a;
+  color: #ffffff;
+  font-weight: 600;
+}
 .banner-text {
   bottom: 40px;
   padding-left: 20px;
@@ -79,7 +83,7 @@
   width: 760px !important;
 }
 .copyright-text {
-  bottom: 20px;
+  bottom: -33%;
   font-size: 13px;
   left: 0;
   right: 0;
@@ -90,8 +94,30 @@
   text-align: center;
 }
 .copyright-text i {
-  color: #feb58a;
+  color: #de6262 !important;
 }
 .copyright-text a {
-  color: #feb58a;
+  color: #de6262 !important;
+}
+.copyright-text a:hover {
+  color: #feb58a !important;
+  text-decoration: none;
+}
+@media only screen and (max-width: 480px) {
+  .img-fluid {
+    height: 386px !important;
+    width: 100% !important;
+  }
+  .banner-sec {
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+    min-height: 387px;
+    padding: 0;
+  }
+  .container {
+    box-shadow: 10px 10px 0px rgba(0,0,0,0.1);
+  }
+  .copyright-text {
+    bottom: 2%;
+  }
 }

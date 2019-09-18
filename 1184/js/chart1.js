@@ -71,7 +71,7 @@ window.onload = function () {
                     }, {
                         dataPoints: [
                             {y: 135305, label: "USA"},
-                            {y: 107922, label: "Russia"},
+                            {y: 200000, label: "Russia"},
                             {y: 52300, label: "China"},
                             {y: 3360, label: "India"},
                             {y: 39900, label: "Australia"},
