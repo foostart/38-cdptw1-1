@@ -4,6 +4,7 @@
 }
 .type-11 .admin-panel {
   width: 100%;
+  height: 440px;
   padding: 10px 17px;
   display: inline-block;
   background: #FFF;
@@ -140,4 +141,10 @@
 .type-11 .admin-panel .admin-content .sidebar-widget #jqRadialGauge {
   width: 150px;
   height: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .type-11 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }

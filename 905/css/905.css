@@ -1,4 +1,4 @@
-@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+@import url("../css/font-awesome.css");
 .login-block {
   background: -webkit-linear-gradient(to bottom,#ffb88c,#de6262);
   background: #de6262;
@@ -117,7 +117,10 @@
   .container {
     box-shadow: 10px 10px 0px rgba(0,0,0,0.1);
   }
-  .copyright-text {
+  .container .copyright-text {
     bottom: 2%;
+  }
+  .container .form-check-label {
+    font-size: 12px;
   }
 }

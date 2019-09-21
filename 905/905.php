@@ -20,7 +20,7 @@ $less->compileFile('less/905.less', 'css/905.css');
     <meta name="robots" content="noindex, nofollow">
     <title>Login Screen with Form - Bootsnipp.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="<?php echo $url_path ?>/css/bootstrap-4.1.1.min.css" rel="stylesheet">
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/905.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="<?php echo $url_path ?>/css/swiper.min.css">
     <script src="<?php echo $url_path ?>/js/jquery-3.2.1.min.js"></script>

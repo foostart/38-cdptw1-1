@@ -32,7 +32,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide active">
                             <img class="d-block img-fluid"
-                                src="https://znews-photo.zadn.vn/w1024/Uploaded/jaroin/2017_03_19/crouching_lion_michael_matti.jpg"
+                                src="images/hinh1.jpg"
                                 alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="banner-text">
@@ -46,7 +46,7 @@
                         </div>
                         <div class="swiper-slide">
                             <img class="d-block img-fluid"
-                                src="https://blogtraitim.info/wp-content/uploads/2018/06/Hinh-anh-dep-3.jpg"
+                                src="images/hinh2.jpg"
                                 alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="banner-text">
@@ -60,7 +60,7 @@
                         </div>
                         <div class="swiper-slide">
                             <img class="d-block img-fluid"
-                                src="http://thuvienanhdep.net/wp-content/uploads/2015/10/hinh-anh-thien-nhien-3d-tuyet-dep-va-an-tuong-cho-hinh-nen-may-tinh-8.jpg"
+                                src="images/hinh3.jpg"
                                 alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="banner-text">

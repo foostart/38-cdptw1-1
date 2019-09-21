@@ -9,10 +9,11 @@ and open the template in the editor.
 */
 @background-color: #FFF;
 @border-color: #E6E9ED;
-@color: #73879C;
+@color0: #73879C;
+@color1:  #BDBDBD;
 @xxx: #ffffff;
 
-.type-9{
+.type-1185{
     .admin-panel {
         width: 100%;
         padding: 10px 17px;
@@ -28,7 +29,7 @@ and open the template in the editor.
             border-bottom: 2px solid @border-color;
             padding: 6px 5px 6px;
             .fa{
-                color: #BDBDBD;
+                color: @color1;
             }
 
             h2 {
@@ -36,7 +37,7 @@ and open the template in the editor.
                 float: left;
                 display: block;
                 font-size: 20px;
-                color: @color;
+                color: @color0;
                 small {
                     margin-left: 10px;
                     font-size: 13px;
@@ -50,7 +51,7 @@ and open the template in the editor.
                 background-color: @background-color;
                 #datepicker {
                     border: none;
-                    color: @color;
+                    color: @color0;
                 }
             }
 
@@ -71,4 +72,16 @@ and open the template in the editor.
 }
 @media screen and (max-width: 1024px)
                and (orientation: landscape){ 
+}
+
+@media screen and (max-width: 980px){ 
+    .admin-content {
+        padding: 5px 5px 5px;
+        margin-top: 5px;
+
+        #chartContainer5 {
+            height: 150px !important;
+            width: 300px !important;
+        }
+    }
 }
