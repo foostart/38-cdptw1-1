@@ -24,13 +24,13 @@ $less->compileFile('less/905.less', 'css/905.css');
     <link href="<?php echo $url_path ?>/css/905.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="<?php echo $url_path ?>/css/swiper.min.css">
     <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
-    <script  src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-    <script  src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
     <script src="<?php echo $url_path ?>/js/905.js"></script>
 </head>
 
 <body>
-<?php
+    <?php
     include './905-content.php';
 ?>
 </body>
