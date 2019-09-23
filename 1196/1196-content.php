@@ -59,14 +59,12 @@
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
                                 <div class="product-img">
-                                    <a href="#"><img src="images/prod-1.jpg" alt="product" id="main" height="500px"></a>
+                                    <a href="#"><img src="images/prod-1.jpg" alt="product" id="main"></a>
                                 </div>
                                 <div class="product-gallery">
-                                    <a href="images/prod-1.jpg" onclick="swap(this); return false;"><img src="images/prod-1.jpg" alt="product"></a>
-                                    <a href="images/prod-2.jpg" onclick="swap(this); return false;"><img src="images/prod-2.jpg" alt=""/></a>
-                                    <a href="images/prod-3.jpg" onclick="swap(this); return false;"><img src="images/prod-3.jpg" alt=""/></a>
-                                    <a href="images/prod-4.jpg" onclick="swap(this); return false;"><img src="images/prod-4.jpg" alt=""/></a>
-                                    <a href="images/prod-5.jpg" onclick="swap(this); return false;"><img src="images/prod-5.jpg" alt=""/></a>
+                                    <a href="images/prod-1.jpg" onclick="swap(this); return false;"><img src="images/prod-1.jpg" ></a>
+                                    <a href="images/prod-2.jpg" onclick="swap(this); return false;"><img src="images/prod-2.jpg"/></a>
+                                   <a href="images/prod-5.jpg" onclick="swap(this); return false;"><img src="images/prod-5.jpg"/></a>
                                 </div>
                             </div>
                             <div class="col-md-5 col-sm-12 col-xs-12">
@@ -112,7 +110,7 @@
                                                 <a href="#" class="btn-size">Large</a>
                                             </li>
                                             <li>
-                                                <a href="#" class="btn-size">X-tra Large</a>
+                                                <a href="#" class="btn-size">X-tra</a>
                                             </li>
                                         </ul>
                                     </div>

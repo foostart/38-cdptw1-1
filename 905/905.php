@@ -23,8 +23,8 @@ $less->compileFile('less/905.less', 'css/905.css');
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/905.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="<?php echo $url_path ?>/css/swiper.min.css">
-    <script src="<?php echo $url_path ?>/js/jquery-3.2.1.min.js"></script>
-    <script  src="<?php echo $url_path ?>/js/bootstrap-4.1.1.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
+    <script  src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
     <script  src="<?php echo $url_path ?>/js/swiper.min.js"></script>
     <script src="<?php echo $url_path ?>/js/905.js"></script>
 </head>

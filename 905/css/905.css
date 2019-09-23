@@ -7,6 +7,9 @@
   padding: 50px 0;
   width: 100%;
 }
+.login-form label {
+  font-weight: 400;
+}
 .banner-sec {
   background-size: cover;
   border-radius: 0 10px 10px 0;
@@ -17,7 +20,7 @@
   background: #ffffff;
   border-radius: 10px;
   box-shadow: 20px 20px 0px rgba(0,0,0,0.1);
-  width: 90%;
+  width: 55%;
 }
 .carousel-caption {
   left: 5%;
@@ -102,6 +105,9 @@
 .copyright-text a:hover {
   color: #feb58a !important;
   text-decoration: none;
+}
+.border-right-radius-10 {
+  border-radius: 0px 10px 10px 0px !important;
 }
 @media only screen and (max-width: 480px) {
   .img-fluid {

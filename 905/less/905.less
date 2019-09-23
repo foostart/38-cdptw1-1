@@ -1,140 +1,144 @@
 @import url("../css/font-awesome.css");
 
-@color0: #de6262; 
-@color1: #ffffff; 
-@color2: #feb58a; 
+@color0: #de6262;
+@color1: #ffffff;
+@color2: #feb58a;
 @color3: #ffb88c;
 
 @width0: 100px;
 @height0: 5px;
 
-
 .login-block {
-	background: -webkit-linear-gradient(to bottom, @color3, @color0);
-	background: @color0;
-	background: linear-gradient(to bottom, @color3, @color0);
-	float: left;
-	padding: 50px 0;
-	width: 100%;
+  background: -webkit-linear-gradient(to bottom, @color3, @color0);
+  background: @color0;
+  background: linear-gradient(to bottom, @color3, @color0);
+  float: left;
+  padding: 50px 0;
+  width: 100%;
 }
-
+.login-form{
+  label{
+    font-weight: 400;
+  }
+}
 .banner-sec {
-	background-size: cover;
-	border-radius: 0 10px 10px 0;
-	min-height: 500px;
-	padding: 0;
+  background-size: cover;
+  border-radius: 0 10px 10px 0;
+  min-height: 500px;
+  padding: 0;
 }
 .container {
-	background: @color1;
-	border-radius: 10px;
-	box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.1);
-	width: 90%;
+  background: @color1;
+  border-radius: 10px;
+  box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.1);
+  width: 55%;
 }
 .carousel-caption {
-	left: 5%;
-	text-align: left;
+  left: 5%;
+  text-align: left;
 }
 .login-sec {
-	padding: 50px 30px;
-	position: relative;
-	h2 {
-		color: @color0;
-		font-size: 30px;
-		font-weight: 800;
-		margin-bottom: 30px;
-		text-align: center;
-		&:after {
-			background: @color2;
-			border-radius: 3px;
-			content: " ";
-			display: block;
-			height: @height0;
-			margin-left: auto;
-			margin-right: auto;
-			margin-top: 20px;
-			width: @width0;
-		}
-	}
+  padding: 50px 30px;
+  position: relative;
+  h2 {
+    color: @color0;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    text-align: center;
+    &:after {
+      background: @color2;
+      border-radius: 3px;
+      content: " ";
+      display: block;
+      height: @height0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      width: @width0;
+    }
+  }
 }
 .btn-login {
-	background: @color0;
-	color: @color1;
-	font-weight: 600;
+  background: @color0;
+  color: @color1;
+  font-weight: 600;
 }
 .btn-login:hover {
-	background: @color2;
-	color: @color1;
-	font-weight: 600;
+  background: @color2;
+  color: @color1;
+  font-weight: 600;
 }
 .banner-text {
-	bottom: 40px;
-	padding-left: 20px;
-	position: absolute;
-	width: 70%;
-	h2 {
-		color: @color1;
-		font-weight: 600;
-		&:after {
-			background: @color1;
-			border-radius: 3px;
-			content: " ";
-			display: block;
-			height: @height0;
-			margin-top: 20px;
-			width: @width0;
-		}
-	}
-	p {
-		color: @color1;
-		text-align: justify;
-	}
+  bottom: 40px;
+  padding-left: 20px;
+  position: absolute;
+  width: 70%;
+  h2 {
+    color: @color1;
+    font-weight: 600;
+    &:after {
+      background: @color1;
+      border-radius: 3px;
+      content: " ";
+      display: block;
+      height: @height0;
+      margin-top: 20px;
+      width: @width0;
+    }
+  }
+  p {
+    color: @color1;
+    text-align: justify;
+  }
 }
 .img-fluid {
-	height: 532px !important;
-	width: 760px !important;
+  height: 532px !important;
+  width: 760px !important;
 }
 .copyright-text {
-	bottom: -33%;
-	font-size: 13px;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 2px;
-	position: absolute;
-	text-align: center;
-	i {
-		color: @color0 !important;
-	}
-	a {
-		color: @color0 !important;
-	}
-        a:hover {
-		color: @color2 !important;
-                 text-decoration: none;
-	}
+  bottom: -33%;
+  font-size: 13px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2px;
+  position: absolute;
+  text-align: center;
+  i {
+    color: @color0 !important;
+  }
+  a {
+    color: @color0 !important;
+  }
+  a:hover {
+    color: @color2 !important;
+    text-decoration: none;
+  }
+}
+.border-right-radius-10 {
+  border-radius: 0px 10px 10px 0px !important;
 }
 
-@media only screen and (max-width: 480px){
-    .img-fluid {
-	height: 386px !important;
-	width: 100% !important;
-    }
-    .banner-sec {
-            background-size: cover;
+@media only screen and (max-width: 480px) {
+  .img-fluid {
+    height: 386px !important;
+    width: 100% !important;
+  }
+  .banner-sec {
+    background-size: cover;
     border-radius: 0 10px 10px 0;
     min-height: 387px;
     padding: 0;
+  }
+  .container {
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.1);
+    .copyright-text {
+      bottom: 2%;
     }
-    .container {
-	box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.1);
-	.copyright-text {
-		bottom: 2%;
-	}
-	.form-check-label{
-		font-size: 12px;
-	}
-}
-
-    
+    .form-check-label {
+      font-size: 12px;
+    }
+  }
 }

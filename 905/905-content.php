@@ -19,7 +19,7 @@
                                 <input type="checkbox" class="form-check-input" id="remeberMe">
                                 <label class="form-check-label" for="remeberMe">Remember Me</label>
                             </span>
-                            <button id="btnLogin" class="btn btn-login float-right">Login</button>
+                            <button id="btnLogin" class="btn btn-login pull-right">Login</button>
                         </div>
                     </div>
                     <!-- end form login -->
@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="col-md-8 col-xs-12 banner-sec">
-                <div class="swiper-container">
+                <div class="swiper-container border-right-radius-10">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide active">
                             <img class="d-block img-fluid"

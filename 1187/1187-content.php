@@ -6,16 +6,16 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
-?>   
+?>
 <div class="type-11">
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="admin-panel">
                     <div class="admin-title">
-                        <h2>
+                        <h3>
                             User Uptake
-                        </h2>
+                        </h3>
                         <ul>
                             <li>
                                 <a class="collapse-link">
@@ -37,7 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </a>
                             </li>
                         </ul>
-
+                        <div class="clearfix"></div>
                     </div>
                     <div class="admin-content">
 
@@ -45,7 +45,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                             <div id="chartColumnContainer">
                             </div>
-                            <div style="margin-top: 15px;">
+                            <div style="margin-top: 15px; margin-bottom: 10px;">
                                 <span>Escudor Wireless 1.0</span>
                                 <span>This sis</span>
                             </div>
@@ -62,7 +62,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
 
 
-                            <div>
+                            <div style="margin-top: 15px; margin-bottom: 10px;">
                                 <span>Mobile Access</span>
                                 <span>Smart Phone</span>
                             </div>
@@ -79,8 +79,8 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
 
 
-                            <div>
-                                <span>WAN access users</span>
+                            <div >
+                                <span>WAN</span>
                                 <span>Total 69%</span>
                             </div>
                             <div class="col-xs-2">
@@ -93,18 +93,19 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-xs-2">
                                 <span>69%</span>
+                                <span>PC</span>
                             </div>
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="admin-panel">
                     <div class="admin-title">
-                        <h2>
-                            Today Weather <small>Sessions</small>
-                        </h2>
+                        <h3>
+                            Weather 
+                        </h3>
                         <ul>
                             <li>
                                 <a class="collapse-link">
@@ -126,7 +127,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </a>
                             </li>
                         </ul>
-
+                        <div class="clearfix"></div>
                     </div>
                     <div class="admin-content" style="color: #73879C;">
 
@@ -138,18 +139,18 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
 
 
-                        <div class="col-sm-4">
+                        <div class="col-sm-4 col-xs-4">
                             <canvas id="partly-cloudy-day" width="64" height="64"></canvas>
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-8 col-xs-8">
                             <div class="title-weather">
                                 <span class="title">Texas <br><i>Partly Cloudy Day</i></span>
                             </div>
                         </div>
-                        <h3>23&deg;</h3>
+                        <h3 class="h-3">23&deg;</h3>
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                             <div>
-                                <h2 ">Mon</h2>
+                                <h2>Mon</h2>
                                 <h3>25&deg;</h3>
                                 <canvas id="clear-day" width="32" height="32"></canvas>
                                 <h5>15 <i>km/h</i></h5>
@@ -200,13 +201,12 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="admin-panel">
                     <div class="admin-title">
-                        <h2>
-                            Incomes 
-                            <small>Sessions</small>
-                        </h2>
+                        <h3>
+                            Incomes
+                        </h3>
                         <ul>
                             <li>
                                 <a class="collapse-link">
@@ -228,30 +228,27 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </a>
                             </li>
                         </ul>
-
+                        <div class="clearfix"></div>
                     </div>
 
                     <div class="admin-content">
                         <ul>
                             <li><i class="fa fa-bars"></i><a href="#">Subscription</a></li>
-                            <li><i class="fa fa-bar-chart"></i><a href="#">Auto Renewal</a></li>
+                            <li><i class="fa fa-bar-chart"></i><a href="#">Renewal</a></li>
                             <li><i class="fa fa-support"></i><a href="#">Help Desk</a></li>
                             <li><i class="fa fa-heart"></i><a href="#">Donations</a></li>
                         </ul>
 
                         <div class="sidebar-widget">
-                            <h4>Goal</h4>   
-
-
+                            <h4>Goal</h4>
                             <div id="jqRadialGauge">
-                            </div>                                      
+                            </div>
 
                         </div
-                    </div>
+
+                   </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-</div>
-
