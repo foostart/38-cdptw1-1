@@ -1,0 +1,33 @@
+@import "../var/var.less";
+
+.type-1184 {
+  margin-top: @margin-center;
+  width: @with;
+
+  .row {
+    span,
+    h3 {
+      color: @color;
+    }
+    h3 {
+      font-size: @font-size;
+      line-height: @font-size;
+      margin: 3px 0 7px;
+      font-weight: @font-weight;
+    }
+    #chartContainer1,
+    #chartContainer2,
+    #chartContainer3,
+    #chartContainer4 {
+      height: @height !important;
+    }
+  }
+}
+@media only screen and (max-width: 823px) {
+  #chartContainer1,
+  #chartContainer2,
+  #chartContainer3,
+  #chartContainer4 {
+    margin-bottom: @with - 80% !important;
+  }
+}

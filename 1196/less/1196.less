@@ -1,26 +1,4 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Mar 23, 2017, 10:09:12 AM
-    Author     : ITLAB
-*/
-
-@color: #73879c;
-@text-decoration: none;
-@list-style: none;
-@background-color: #ffffff;
-@float-left: left;
-@background-color-tab: #f5f7fa;
-@color-white: #fff;
-@border-color: #e6e9ed;
-@opacity: 1;
-@margin: 0;
-@padding: 0;
-@border-color-frmsearch: rgba(221, 226, 232, 0.49);
-
+@import "../var/var.less";
 .type-1196 {
   color: @color;
   .content {
@@ -32,26 +10,26 @@ and open the template in the editor.
       }
     }
     .content-right {
-      float: right;
+      float: @right ;
       .top_search {
         padding: 0;
-        margin: 10px 0;
+        margin: @pading-10px 0;
         .input-group {
           margin-bottom: 10px;
         }
         .form-control {
-          box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 0 @border-color-frmsearch1;
           border-radius: 25px 0 0 25px;
           padding-left: 20px;
-          border: 1px solid rgba(221, 226, 232, 0.49);
+          border: 1px solid @border-color-frmsearch;
         }
         .input-group-btn {
           button {
             border-radius: 0 25px 25px 0;
-            border: 1px solid rgba(221, 226, 232, 0.49);
+            border: 1px solid @border-color-frmsearch;
             border-left: 0;
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-            color: #93a2b2;
+            box-shadow: inset 0 1px 1px  @border-color-frmsearch1;
+            color: @color2;
             margin-bottom: 0 !important;
           }
         }
@@ -59,8 +37,8 @@ and open the template in the editor.
     }
   }
   .admin-panel {
-    width: 100%;
-    padding: 10px 17px;
+    width: @max-with;
+    padding: @pading-10px 17px;
     display: inline-block;
     background-color: @background-color;
     border: 1px solid @border-color;
@@ -76,12 +54,12 @@ and open the template in the editor.
         margin: 5px @margin 6px;
         float: @float-left;
         display: block;
-        font-size: 18px;
+        font-size: 17px;
       }
       ul.items {
         margin-right: @margin;
         min-width: 70px;
-        float: right;
+        float: @right ;
         list-style: @list-style;
         margin-top: 5px;
         li {
@@ -128,21 +106,21 @@ and open the template in the editor.
           margin: 10px;
          
           img {
-            border: 1px solid #e5e5e5;
+            border: 1px solid @color3;
             padding: 10px;
-            width: 100%;
-            height: 100%;
+            width: @max-with;
+            height: @max-with;
             margin-top: 15px;
           }
         }
         img:hover {
-          border: 1px solid #66b6db;
+          border: 1px solid @color4;
           width: 180px;
           height: 160px;
         }
       }
       .product-name {
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid @color5;
       }
       .product-info {
         p.description {
@@ -157,7 +135,7 @@ and open the template in the editor.
             li {
               margin: @margin 10px;
               padding: @padding 5px;
-              float: left;
+              float: @left;
               p {
                 margin-bottom: @margin;
               }
@@ -171,19 +149,19 @@ and open the template in the editor.
 
               .green {
                 background-color: #1abb9c !important;
-                color: @color-white;
+                color: @background-color;
               }
               .blue {
                 background-color: #3498db !important;
-                color: @color-white;
+                color: @background-color;
               }
               .red {
                 background-color: #e74c3c !important;
-                color: @color-white;
+                color: @background-color;
               }
               .orange {
                 background-color: #f39c12 !important;
-                color: @color-white;
+                color: @background-color;
               }
             }
           }
@@ -197,7 +175,7 @@ and open the template in the editor.
             li {
               margin: @margin;
               padding: @padding 5px;
-              float: left;
+              float: @left;
               a.btn-size {
                 margin-bottom: 5px;
                 margin-right: 5px;
@@ -222,8 +200,8 @@ and open the template in the editor.
           margin-top: 50px;
           padding: 5px 10px;
           background-color: @background-color;
-          text-align: left;
-          border: 2px dashed #e0e0e0;
+          text-align: @left;
+          border: 2px dashed @color5;
           .price {
             color: #26b99a;
             margin: @margin;
@@ -241,7 +219,7 @@ and open the template in the editor.
             color: #333;
             background-color: @background-color;
             border: 1px solid #ccc;
-            padding: 10px 16px;
+            padding: @pading-10px 16px;
             border-radius: 5px;
             font-size: 18px;
             text-decoration: @text-decoration;
@@ -262,15 +240,16 @@ and open the template in the editor.
               padding: @padding 4px;
               margin: @margin;
               a {
-                color: #5a738e;
+                color: @color1;
                 i {
                   font-size: 35px;
                 }
+                &:hover {
+                  color: #337ab7;
+                }
               }
-              a:hover {
-                color: #337ab7;
               }
-            }
+              
           }
         }
       }
@@ -285,12 +264,12 @@ and open the template in the editor.
           border-bottom: none;
           border-radius: 4px 4px 0 0;
           a {
-            color: #5a738e;
+            color: @color1;
           }
         }
       }
       .tab-content {
-        padding: 10px @padding;
+        padding: @pading-10px @padding;
         #menu1,
         #menu2 {
           padding: @padding;
@@ -300,11 +279,11 @@ and open the template in the editor.
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1025px) {
   .content {
     .content-left {
       h3 {
-        font-size: 16px;
+        font-size: 18px !important;
       }
     }
     .content-right {
@@ -316,6 +295,29 @@ and open the template in the editor.
       display: inline-block;
     }
   }
+  .product-img {
+    img#main {
+      width:@max-with !important;
+      height: 75% !important;
+    }
+  }
+  .product-gallery {
+    a {
+      margin-top: 3px !important ;
+      width: 100px !important;
+      height: 130px !important;
+      float: @right ;
+      margin-left: 10px;
+      border: none !important;
+      img {
+        margin-top: 0px !important ;
+        border: 1px solid @color3;
+        width: @max-with;
+        height: @max-with;
+        padding: 10px;
+      }
+    }
+  }
 }
 
 @media (max-width: 415px) {
@@ -323,7 +325,7 @@ and open the template in the editor.
     .admin-content {
       .product-img {
         img#main {
-          float: left;
+          float: @left;
           width: 64% !important;
           height: 240px !important;
         }
@@ -333,34 +335,34 @@ and open the template in the editor.
           margin-top: 3px !important ;
           width: 80px !important;
           height: 80px !important;
-          float: right;
+          float: @right ;
           margin-left: 10px;
           border: none !important;
           img {
             margin-top: 0px !important ;
-            border: 1px solid #e5e5e5;
-            width: 100%;
-            height: 100%;
-            padding: 10px;
+            border: 1px solid @color3;
+            width: @max-with;
+            height: @max-with;
+            padding: @max-with;
           }
-        }
-        a:hover {
-          width: 55px;
-          height: 50px;
-          img {
-            border: 1px solid #66b6db;
+          &:hover {
+            width: 55px;
+            height: 50px;
+            img {
+              border: 1px solid @color4;
+            }
           }
         }
       }
     }
   }
 }
-@media (max-width: 321px) {
+@media (max-width: 376px) {
     .admin-panel {
       .admin-content {
         .product-img {
           img#main {
-            float: left;
+            float: @left;
             width: 64% !important;
             height: 200px !important;
           }
@@ -370,30 +372,29 @@ and open the template in the editor.
             margin-top: 3px !important ;
             width: 70px !important;
             height: 60px !important;
-            float: right;
+            float: @right ;
             border: none !important;
             img {
               margin-top: 0px !important ;
-              border: 1px solid #e5e5e5;
-              width: 100%;
-              height: 100%;
+              border: 1px solid @color3;
+              width: @max-with;
+              height: @max-with;
               padding: 10px;
-            }
-          }
-          a:hover {
-            width: 55px;
-            height: 50px;
-            img {
-              border: 1px solid #66b6db;
             }
           }
         }
       }
+      .admin-title {
+        h3 {
+          font-size: 11px !important;
+        }
+      }
     }
+   
     .product-btnadd {
         .add-to-cart {
           font-size: 15px !important;
-          padding: 10px 10px !important;
+          padding: @pading-10px 10px !important;
         }
     }
   }

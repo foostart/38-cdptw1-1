@@ -53,7 +53,7 @@
   margin: 5px 0 6px;
   float: left;
   display: block;
-  font-size: 18px;
+  font-size: 17px;
 }
 .type-1196 .admin-panel .admin-title ul.items {
   margin-right: 0;
@@ -137,19 +137,19 @@
 }
 .type-1196 .admin-panel .admin-content .product-info .product-color ul.color-name li .green {
   background-color: #1abb9c !important;
-  color: #fff;
+  color: #ffffff;
 }
 .type-1196 .admin-panel .admin-content .product-info .product-color ul.color-name li .blue {
   background-color: #3498db !important;
-  color: #fff;
+  color: #ffffff;
 }
 .type-1196 .admin-panel .admin-content .product-info .product-color ul.color-name li .red {
   background-color: #e74c3c !important;
-  color: #fff;
+  color: #ffffff;
 }
 .type-1196 .admin-panel .admin-content .product-info .product-color ul.color-name li .orange {
   background-color: #f39c12 !important;
-  color: #fff;
+  color: #ffffff;
 }
 .type-1196 .admin-panel .admin-content .product-info .product-size {
   padding: 25px 0;
@@ -257,15 +257,34 @@
 .type-1196 .admin-panel .admin-content .tab-content #menu2 {
   padding: 0;
 }
-@media (max-width: 980px) {
+@media (max-width: 1025px) {
   .content .content-left h3 {
-    font-size: 16px;
+    font-size: 18px !important;
   }
   .content .content-right {
     margin-top: -5px;
   }
   .product-name h3 {
     display: inline-block;
+  }
+  .product-img img#main {
+    width: 100% !important;
+    height: 75% !important;
+  }
+  .product-gallery a {
+    margin-top: 3px !important;
+    width: 100px !important;
+    height: 130px !important;
+    float: right;
+    margin-left: 10px;
+    border: none !important;
+  }
+  .product-gallery a img {
+    margin-top: 0px !important;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
   }
 }
 @media (max-width: 415px) {
@@ -287,7 +306,7 @@
     border: 1px solid #e5e5e5;
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 100%;
   }
   .admin-panel .admin-content .product-gallery a:hover {
     width: 55px;
@@ -297,7 +316,7 @@
     border: 1px solid #66b6db;
   }
 }
-@media (max-width: 321px) {
+@media (max-width: 376px) {
   .admin-panel .admin-content .product-img img#main {
     float: left;
     width: 64% !important;
@@ -317,12 +336,8 @@
     height: 100%;
     padding: 10px;
   }
-  .admin-panel .admin-content .product-gallery a:hover {
-    width: 55px;
-    height: 50px;
-  }
-  .admin-panel .admin-content .product-gallery a:hover img {
-    border: 1px solid #66b6db;
+  .admin-panel .admin-title h3 {
+    font-size: 11px !important;
   }
   .product-btnadd .add-to-cart {
     font-size: 15px !important;

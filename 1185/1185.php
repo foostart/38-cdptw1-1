@@ -14,7 +14,7 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/type-9.less', 'css/type-9.css');
+    $less->compileFile('less/type-1185.less', 'css/type-1185.css');
     
 ?>
 <!DOCTYPE html>
@@ -27,7 +27,7 @@
 
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css"rel="stylesheet"/>
-        <link href="<?php echo $url_path ?>/css/type-9.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/type-1185.css" rel="stylesheet" type="text/css"/>
         
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
