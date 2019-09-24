@@ -35,8 +35,8 @@
     <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
     <script src="<?php echo $url_path ?>/js/jquery-ui.min.js"></script>
     <script src="<?php echo $url_path ?>/js/datetimepicker.js"></script>
-    <script src="<?php echo $url_path ?>/js/canvasjs.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/chart2.js"></script>
+    <script src="<?php echo $url_path ?>/js/highcharts.js"></script>
+    <script src="<?php echo $url_path ?>/js/chart1.js"></script>
     <script src="<?php echo $url_path ?>/js/jquery-ui.js"></script>
     
 </head>

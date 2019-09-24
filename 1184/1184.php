@@ -31,8 +31,8 @@
     <link rel="stylesheet" href="<?php echo $url_path ?>/css/type-1184.css">
     <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
     <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/canvasjs.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/chart1.js"></script>
+    <script src="<?php echo $url_path ?>/js/highcharts.js"></script>
+    <script src="<?php echo $url_path ?>/js/chart.js"></script>
 </head>
 
 <body>

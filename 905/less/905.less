@@ -113,7 +113,14 @@
 .border-right-radius-10 {
   border-radius: 0px 10px 10px 0px !important;
 }
-
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: @color0 !important;
+  opacity: 1;
+}
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: @color1;
+  opacity: 1;
+}
 @media only screen and (max-width: 790px) {
   .img-fluid {
     height: 386px !important;
@@ -125,6 +132,24 @@
     min-height: 387px;
     padding: 0;
   }
+  h2 {
+    font-size: 20px !important;
+  }
+  p{
+    font-size: 10px !important;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 30px !important;
+    height: 20px !important;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
   .container {
     width: 90%;
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.1);
@@ -142,13 +167,13 @@
 @media only screen and (min-width: 790px) {
   .border-right-radius-10;
   .container {
-   width: 90%;
+    width: 90%;
   }
 }
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   .border-right-radius-10;
   .container {
-   width: 55%;
+    width: 55%;
   }
 }
