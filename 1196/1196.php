@@ -14,26 +14,28 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!-- Meta, title, CSS, favicons, etc. -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Module - 1196</title>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/1196.css" rel="stylesheet" type="text/css"/>
-        
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/thumbs-img.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/collapse-close.js" type="text/javascript"></script>
-    </head>
+    <title>Module - 1196</title>
 
-    <body>
-        <?php  $dir_block.include'1196-content.php'; ?>    
-    </body>
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="<?php echo $url_path ?>/css/1196.css" rel="stylesheet" />
+
+    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/thumbs-img.js"></script>
+    <script src="<?php echo $url_path ?>/js/collapse-close.js"></script>
+</head>
+
+<body>
+    <?php  $dir_block.include'1196-content.php'; ?>
+</body>
+
 </html>

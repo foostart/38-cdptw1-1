@@ -19,25 +19,27 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>  
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Module - Content e-commerce</title>
-        
 
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css"rel="stylesheet"/>
-        <link href="<?php echo $url_path ?>/css/type-1185.css" rel="stylesheet" type="text/css"/>
-        
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/jquery-ui.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/datetimepicker.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/canvasjs.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/chart2.js" type="text/javascript"></script>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module - Content e-commerce</title>
 
-    <body>
-        <?php  $dir_block.include'1185-content.php'; ?>
-    </body>
+
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="<?php echo $url_path ?>/css/type-1185.css" rel="stylesheet" />
+
+    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/jquery-ui.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/datetimepicker.js"></script>
+    <script src="<?php echo $url_path ?>/js/canvasjs.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/chart2.js"></script>
+</head>
+
+<body>
+    <?php  $dir_block.include'1185-content.php'; ?>
+</body>
+
 </html>
