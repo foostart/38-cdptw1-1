@@ -14,7 +14,7 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/type-1185.less', 'css/type-1185.css');
+    $less->compileFile('less/1185.less', 'css/1185.css');
     
 ?>
 <!DOCTYPE html>
