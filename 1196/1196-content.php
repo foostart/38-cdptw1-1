@@ -54,9 +54,9 @@
                                     <a href="#"><img src="images/prod-1.jpg" alt="product" id="main"></a>
                                 </div>
                                 <div class="product-gallery">
-                                    <a href="images/prod-1.jpg" onclick="swap(this); return false;"><img src="images/prod-1.jpg" ></a>
-                                    <a href="images/prod-2.jpg" onclick="swap(this); return false;"><img src="images/prod-2.jpg"/></a>
-                                   <a href="images/prod-5.jpg" onclick="swap(this); return false;"><img src="images/prod-5.jpg"/></a>
+                                    <a href="images/prod-1.jpg" onclick="swap(this); return false;"><img class="img-responsive" src="images/prod-1.jpg" ></a>
+                                    <a href="images/prod-2.jpg" onclick="swap(this); return false;"><img class="img-responsive" src="images/prod-2.jpg"/></a>
+                                   <a href="images/prod-5.jpg" onclick="swap(this); return false;"><img class="img-responsive" src="images/prod-5.jpg"/></a>
                                 </div>
                             </div>
                             <div class="col-md-5 col-sm-12 col-xs-12">

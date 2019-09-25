@@ -27,7 +27,7 @@
 
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="<?php echo $url_path ?>/css/type-1187.css" rel="stylesheet" />
+    <link href="<?php echo $url_path ?>/css/1187.css" rel="stylesheet" />
     <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
     <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
     <script src="<?php echo $url_path ?>/js/chart.js"></script>

@@ -28,7 +28,7 @@
 
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="<?php echo $url_path ?>/css/type-1185.css" rel="stylesheet" />
+    <link href="<?php echo $url_path ?>/css/1185.css" rel="stylesheet" />
     <link href="<?php echo $url_path ?>/css/jquery-ui.min.css" rel="stylesheet" />
 
     <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>

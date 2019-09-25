@@ -31,9 +31,7 @@
                 <div class="swiper-container border-right-radius-10">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide active">
-                            <img class="d-block img-fluid"
-                                src="images/hinh1.jpg"
-                                alt="First slide">
+                            <img class="d-block img-fluid" src="images/hinh1.jpg" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="banner-text">
                                     <h2>This is Heaven</h2>
@@ -45,9 +43,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class="d-block img-fluid"
-                                src="images/hinh2.jpg"
-                                alt="First slide">
+                            <img class="d-block img-fluid" src="images/hinh2.jpg" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="banner-text">
                                     <h2>This is Heaven</h2>
@@ -59,9 +55,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class="d-block img-fluid"
-                                src="images/hinh3.jpg"
-                                alt="First slide">
+                            <img class="d-block img-fluid" src="images/hinh3.jpg" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="banner-text">
                                     <h2>This is Heaven</h2>
@@ -74,8 +68,8 @@
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
-                    <div class="swiper-button-prev swiper-button-white"></div>
-                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white prev"></div>
+                    <div class="swiper-button-next swiper-button-white next"></div>
                 </div>
             </div>
         </div>

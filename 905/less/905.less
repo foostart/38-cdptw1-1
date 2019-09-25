@@ -121,7 +121,26 @@
   background-color: @color1;
   opacity: 1;
 }
-
+.next:hover{
+  background-image:  url(../images/next.png) !important;
+  position: absolute;
+    top: 50%;
+    width: 40px !important;
+    height: 44px !important;
+    background-size: 40px 44px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.prev:hover{
+  background-image:  url(../images/back.png) !important;
+  position: absolute;
+    top: 50%;
+    width: 40px !important;
+    height: 44px !important;
+    background-size: 40px 44px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 @media only screen and (max-width: 790px) {
   .img-fluid {
     height: 386px !important;
@@ -139,10 +158,39 @@
   p{
     font-size: 10px !important;
   }
-  .swiper-button-next, .swiper-button-prev {
+  .login-form {
+    label {
+      font-size: 12px;
+    }
+  }
+  .next:hover{
+    background-image:  url(../images/3.png) !important;
     position: absolute;
     top: 50%;
-    width: 30px !important;
+    width: 25px !important;
+    height: 20px !important;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .prev:hover{
+    background-image:  url(../images/4.png) !important;
+    position: absolute;
+    top: 50%;
+    width: 25px !important;
+    height: 20px !important;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .next, .prev {
+    position: absolute;
+    top: 50%;
+    width: 25px !important;
     height: 20px !important;
     margin-top: -22px;
     z-index: 10;
