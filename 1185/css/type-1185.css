@@ -47,6 +47,9 @@
   height: 300px;
   width: 100%;
 }
+.highcharts-credits {
+  display: none !important;
+}
 @media screen and (max-width: 980px) {
   #chartContainer5 {
     height: 150px !important;

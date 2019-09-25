@@ -144,6 +144,9 @@
   width: 150px;
   height: 80px;
 }
+.highcharts-credits {
+  display: none !important;
+}
 @media only screen and (max-width: 414px) {
   .type-11 {
     margin-left: 0px;

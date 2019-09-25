@@ -30,7 +30,6 @@
     <link href="<?php echo $url_path ?>/css/type-1187.css" rel="stylesheet" />
     <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
     <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/canvasjs.min.js"></script>
     <script src="<?php echo $url_path ?>/js/chart.js"></script>
     <script src="<?php echo $url_path ?>/js/script-gauge.js"></script>
     <script src="<?php echo $url_path ?>/js/weather-icons.js"></script>

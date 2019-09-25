@@ -18,6 +18,9 @@
 .type-1184 .row #chartContainer4 {
   height: 150px !important;
 }
+.highcharts-credits {
+  display: none !important;
+}
 @media only screen and (max-width: 823px) {
   #chartContainer1,
   #chartContainer2,
