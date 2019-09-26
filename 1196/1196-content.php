@@ -14,8 +14,8 @@
                             </span>
                         </div>
                     </div>
-                </div>  
-            </div> 
+                </div>
+            </div>
         </div>
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -53,10 +53,27 @@
                                 <div class="product-img">
                                     <a href="#"><img src="images/prod-1.jpg" alt="product" id="main"></a>
                                 </div>
-                                <div class="product-gallery">
-                                    <a href="images/prod-1.jpg" onclick="swap(this); return false;"><img class="img-responsive" src="images/prod-1.jpg" ></a>
-                                    <a href="images/prod-2.jpg" onclick="swap(this); return false;"><img class="img-responsive" src="images/prod-2.jpg"/></a>
-                                   <a href="images/prod-5.jpg" onclick="swap(this); return false;"><img class="img-responsive" src="images/prod-5.jpg"/></a>
+                                <div class="swiper-container product-gallery">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"> <a href="images/prod-1.jpg"  onclick="swap(this); return false;"><img
+                                                    class="img-responsive" src="images/prod-1.jpg"></a>
+                                        </div>
+                                        <div class="swiper-slide"> <a href="images/prod-2.jpg"  onclick="swap(this); return false;"><img
+                                                    class="img-responsive" src="images/prod-2.jpg"></a>
+                                        </div>
+                                        <div class="swiper-slide"> <a href="images/prod-3.jpg"  onclick="swap(this); return false;"><img
+                                                    class="img-responsive" src="images/prod-3.jpg"></a>
+                                        </div>
+                                        <div class="swiper-slide"> <a href="images/prod-1.jpg"  onclick="swap(this); return false;"><img
+                                                    class="img-responsive" src="images/prod-1.jpg"></a>
+                                        </div>
+                                        <div class="swiper-slide"> <a href="images/prod-2.jpg"  onclick="swap(this); return false;"><img
+                                                    class="img-responsive" src="images/prod-1.jpg"></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-prev swiper-button-white prev"></div>
+                                    <div class="swiper-button-next swiper-button-white next"></div>
                                 </div>
                             </div>
                             <div class="col-md-5 col-sm-12 col-xs-12">
@@ -64,7 +81,9 @@
                                     <h3>LOWA Men’s Renegade GTX Mid Hiking Boots Review</h3>
                                 </div>
                                 <div class="product-info">
-                                    <p class="description">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.</p>
+                                    <p class="description">Raw denim you probably haven't heard of them jean shorts
+                                        Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher
+                                        synth. Cosby sweater eu banh mi, qui irure terr.</p>
                                     <div class="product-color">
                                         <h4>Available Colors</h4>
 
@@ -141,13 +160,22 @@
                                 </ul>
                                 <div class="tab-content">
                                     <div id="home" class="tab-pane fade in active">
-                                        <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.</p>
+                                        <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt
+                                            tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor,
+                                            williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+                                            dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.</p>
                                     </div>
-                                    <div id="menu1" class="tab-pane fade">                                                
-                                        <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip</p>
+                                    <div id="menu1" class="tab-pane fade">
+                                        <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin
+                                            coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next
+                                            level wes anderson artisan four loko farm-to-table craft beer twee. Qui
+                                            photo booth letterpress, commodo enim craft beer mlkshk aliquip</p>
                                     </div>
                                     <div id="menu2" class="tab-pane fade">
-                                        <p>xxFood truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk</p>
+                                        <p>xxFood truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin
+                                            coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next
+                                            level wes anderson artisan four loko farm-to-table craft beer twee. Qui
+                                            photo booth letterpress, commodo enim craft beer mlkshk</p>
                                     </div>
                                 </div>
                             </div>

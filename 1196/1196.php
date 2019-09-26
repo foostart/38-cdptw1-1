@@ -27,7 +27,9 @@
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" />
     <link href="<?php echo $url_path ?>/css/1196.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://g-mops.net/epica_swiper/dist/css/swiper.min.css">
 
+    <script src="http://g-mops.net/epica_swiper/dist/js/swiper.min.js"></script>
     <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
     <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
     <script src="<?php echo $url_path ?>/js/thumbs-img.js"></script>
