@@ -85,11 +85,19 @@
 .type-11 .admin-panel .admin-content #clear-day {
   display: block;
 }
-.type-11 .admin-panel .admin-content .title-weather {
-  margin: 10px 0;
+.type-11 .admin-panel .admin-content .daily-weather .day {
+  font-size: 14px;
+  border-top: 2px solid rgba(115,135,156,0.36);
+  text-align: center;
+  border-bottom: 2px solid rgba(115,135,156,0.36);
+  padding: 5px 0;
 }
-.type-11 .admin-panel .admin-content .title-weather .title {
-  font-size: 20px;
+.type-11 .admin-panel .admin-content .degrees:after {
+  content: "o";
+  top: -12px;
+  font-size: 13px;
+  font-weight: 300;
+  position: relative;
 }
 .type-11 .admin-panel .admin-content .info-progress {
   color: #73879c;
@@ -152,6 +160,12 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+  .type-11 .cham {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 50%;
+  }
   .type-11 .admin-panel {
     width: 100%;
     height: 100%;
@@ -162,11 +176,25 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+  .type-11 .cham {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 50%;
+  }
   .type-11 .admin-panel {
     width: 100%;
     height: 500px !important;
   }
   .type-11 .admin-panel .admin-content .h-3 {
     margin-left: 3% !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .type-11 .cham {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 60%;
   }
 }

@@ -54,4 +54,7 @@
   #chartContainer5 {
     height: 150px !important;
   }
+  .show-calendar {
+    padding: 2px !important;
+  }
 }

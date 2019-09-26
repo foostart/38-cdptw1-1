@@ -4,7 +4,7 @@
             <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="admin-panel">
                     <div class="admin-title">
-                        <h3>
+                        <h3 class="cham">
                             User Uptake
                         </h3>
                         <ul>
@@ -94,8 +94,8 @@
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="admin-panel">
                     <div class="admin-title">
-                        <h3>
-                        Today Weather <small>Sessions</small>
+                        <h3 class="cham">
+                            Today Weather <small>Sessions</small>
                         </h3>
                         <ul>
                             <li>
@@ -139,53 +139,57 @@
                             </div>
                         </div>
                         <h3 class="h-3">23&deg;</h3>
-                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <div>
-                                <h2>Mon</h2>
-                                <h3>25&deg;</h3>
-                                <canvas id="clear-day" width="32" height="32"></canvas>
-                                <h5>15 <i>km/h</i></h5>
+                        <div class="clearfix"></div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                <div class="daily-weather">
+                                    <h2 class="day">Mon</h2>
+                                    <h3 class="degrees">25</h3>
+                                    <canvas id="clear-day" width="32" height="32"></canvas>
+                                    <h5>15 <i>km/h</i></h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <div>
-                                <h2>Tue</h2>
-                                <h3>25&deg;</h3>
-                                <canvas height="32" width="32" id="rain"></canvas>
-                                <h5>12 <i>km/h</i></h5>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                <div class="daily-weather">
+                                    <h2 class="day">Tue</h2>
+                                    <h3 class="degrees">25</h3>
+                                    <canvas height="28px" width="32px" id="rain"></canvas>
+                                    <h5>12 <i>km/h</i></h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <div>
-                                <h2>Wed</h2>
-                                <h3>27&deg;</h3>
-                                <canvas height="32" width="32" id="snow"></canvas>
-                                <h5>14 <i>km/h</i></h5>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                <div class="daily-weather">
+                                    <h2 class="day">Wed</h2>
+                                    <h3 class="degrees">27</h3>
+                                    <canvas height="32" width="32" id="snow"></canvas>
+                                    <h5>14 <i>km/h</i></h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <div>
-                                <h2>Thu</h2>
-                                <h3>28&deg;</h3>
-                                <canvas height="32" width="32" id="sleet"></canvas>
-                                <h5>15 <i>km/h</i></h5>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                <div class="daily-weather">
+                                    <h2 class="day">Thu</h2>
+                                    <h3 class="degrees">28</h3>
+                                    <canvas height="32" width="32" id="sleet"></canvas>
+                                    <h5>15 <i>km/h</i></h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <div>
-                                <h2>Fri</h2>
-                                <h3>28&deg;</h3>
-                                <canvas height="32" width="32" id="wind"></canvas>
-                                <h5>11 <i>km/h</i></h5>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                <div class="daily-weather">
+                                    <h2 class="day">Fri</h2>
+                                    <h3 class="degrees">28</h3>
+                                    <canvas height="28px" width="32" id="wind"></canvas>
+                                    <h5>11 <i>km/h</i></h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <div>
-                                <h2>Sat</h2>
-                                <h3>26&deg;</h3>
-                                <canvas height="32" width="32" id="cloudy"></canvas>
-                                <h5>10 <i>km/h</i></h5>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                <div class="daily-weather">
+                                    <h2 class="day">Sat</h2>
+                                    <h3 class="degrees">26</h3>
+                                    <canvas height="32" width="32" id="cloudy"></canvas>
+                                    <h5>10 <i>km/h</i></h5>
+                                </div>
                             </div>
+                            <div class="clearfix"></div>
                         </div>
 
 
@@ -195,7 +199,7 @@
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="admin-panel">
                     <div class="admin-title">
-                        <h3>
+                        <h3 class="cham">
                             Incomes <small>Sessions</small>
                         </h3>
                         <ul>
