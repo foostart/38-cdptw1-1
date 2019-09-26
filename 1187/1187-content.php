@@ -95,7 +95,7 @@
                 <div class="admin-panel">
                     <div class="admin-title">
                         <h3>
-                            Weather
+                        Today Weather <small>Sessions</small>
                         </h3>
                         <ul>
                             <li>
@@ -196,7 +196,7 @@
                 <div class="admin-panel">
                     <div class="admin-title">
                         <h3>
-                            Incomes
+                            Incomes <small>Sessions</small>
                         </h3>
                         <ul>
                             <li>
@@ -225,7 +225,7 @@
                     <div class="admin-content">
                         <ul>
                             <li><i class="fa fa-bars"></i><a href="#">Subscription</a></li>
-                            <li><i class="fa fa-bar-chart"></i><a href="#">Renewal</a></li>
+                            <li><i class="fa fa-bar-chart"></i><a href="#">Auto Renewal</a></li>
                             <li><i class="fa fa-support"></i><a href="#">Help Desk</a></li>
                             <li><i class="fa fa-heart"></i><a href="#">Donations</a></li>
                         </ul>
