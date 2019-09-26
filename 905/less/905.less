@@ -2,112 +2,100 @@
 @import "../var/var.less";
 
 .login-block {
-  background: -webkit-linear-gradient(to bottom, @color3, @color0);
-  background: @color0;
-  background: linear-gradient(to bottom, @color3, @color0);
-  float: left;
-  padding: 50px 0;
+	background: -webkit-linear-gradient(to bottom, @color3, @color0);
+	background: @color0;
+	background: linear-gradient(to bottom, @color3, @color0);
+	float: left;
+	padding: 50px 0;
   width: 100%;
-}
-.login-form {
-  label {
-    font-weight: 400;
-  }
-}
-.banner-sec {
-  background-size: cover;
-  border-radius: 0 10px 10px 0;
-  min-height: 500px;
-  padding: 0;
-}
-.container {
-  background: @color1;
-  border-radius: 10px;
-  box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.1);
-  //width: 55%;
-}
-.carousel-caption {
-  left: 5%;
-  text-align: left;
-}
-.login-sec {
-  padding: 50px 30px;
-  position: relative;
-  h2 {
-    color: @color0;
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom: 30px;
-    text-align: center;
-    &:after {
-      background: @color2;
-      border-radius: 3px;
-      content: " ";
-      display: block;
-      height: @height0;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 20px;
-      width: @width0;
+  .container {
+    background: @color1;
+    border-radius: 10px;
+    box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.1);
+    .login-sec {
+      padding: 50px 30px;
+      position: relative;
+      h2 {
+        color: @color0;
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .login-form {
+        label {
+          font-weight: 400;
+        }
+        .btn-login {
+          background: @color0;
+          color: @color1;
+          font-weight: 600;
+          &:hover {
+            background: @color2;
+            color: @color1;
+            font-weight: 600;
+          }
+        }
+      }
+      .copyright-text {
+        bottom: -33%;
+        font-size: 13px;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 2px;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        i {
+          color: @color0 !important;
+        }
+        a {
+          color: @color0 !important;
+          &:hover {
+            color: @color2 !important;
+            text-decoration: none;
+          }
+        }
+      }
     }
-  }
-}
-.btn-login {
-  background: @color0;
-  color: @color1;
-  font-weight: 600;
-}
-.btn-login:hover {
-  background: @color2;
-  color: @color1;
-  font-weight: 600;
-}
-.banner-text {
-  bottom: 40px;
-  padding-left: 20px;
-  position: absolute;
-  width: 70%;
-  h2 {
-    color: @color1;
-    font-weight: 600;
-    &:after {
-      background: @color1;
-      border-radius: 3px;
-      content: " ";
-      display: block;
-      height: @height0;
-      margin-top: 20px;
-      width: @width0;
+    .banner-sec {
+      background-size: cover;
+      border-radius: 0 10px 10px 0;
+      min-height: 500px;
+      padding: 0;
+      .img-fluid {
+        height: 532px !important;
+        width: 780px !important;
+      }
+      .carousel-caption {
+        left: 5%;
+        text-align: left;
+        .banner-text {
+          bottom: 40px;
+          padding-left: 20px;
+          position: absolute;
+          width: 70%;
+          h2 {
+            color: @color1;
+            font-weight: 600;
+            &:after {
+              background: @color1;
+              border-radius: 3px;
+              content: " ";
+              display: block;
+              height: @height2;
+              margin-top: 20px;
+              width: @width0;
+            }
+          }
+          p {
+            color: @color1;
+            text-align: justify;
+          }
+        }
+      }
     }
-  }
-  p {
-    color: @color1;
-    text-align: justify;
-  }
-}
-.img-fluid {
-  height: 532px !important;
-  width: 780px !important;
-}
-.copyright-text {
-  bottom: -33%;
-  font-size: 13px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 2px;
-  position: absolute;
-  text-align: center;
-  i {
-    color: @color0 !important;
-  }
-  a {
-    color: @color0 !important;
-  }
-  a:hover {
-    color: @color2 !important;
-    text-decoration: none;
   }
 }
 .border-right-radius-10 {
@@ -121,108 +109,92 @@
   background-color: @color1;
   opacity: 1;
 }
-.next:hover{
-  background-image:  url(../images/next.png) !important;
-  position: absolute;
-    top: 50%;
-    width: 40px !important;
-    height: 44px !important;
-    background-size: 40px 44px !important;
-    background-position: center;
-    background-repeat: no-repeat;
+.prev {
+  &:hover {
+    background-image: url(../images/back.png) !important;
+  }
 }
-.prev:hover{
-  background-image:  url(../images/back.png) !important;
-  position: absolute;
-    top: 50%;
-    width: 40px !important;
-    height: 44px !important;
-    background-size: 40px 44px !important;
-    background-position: center;
-    background-repeat: no-repeat;
+.next {
+  &:hover {
+    background-image: url(../images/next.png) !important;
+  }
 }
-@media only screen and (max-width: 790px) {
-  .img-fluid {
-    height: 386px !important;
-    width: 100% !important;
-  }
-  .banner-sec {
-    background-size: cover;
-    border-radius: 0 10px 10px 0;
-    min-height: 387px;
-    padding: 0;
-  }
-  h2 {
-    font-size: 20px !important;
-  }
-  p{
-    font-size: 10px !important;
-  }
-  .login-form {
-    label {
-      font-size: 12px;
-    }
-  }
-  .next:hover{
-    background-image:  url(../images/3.png) !important;
-    position: absolute;
-    top: 50%;
-    width: 25px !important;
-    height: 20px !important;
-    margin-top: -22px;
-    z-index: 10;
-    cursor: pointer;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .prev:hover{
-    background-image:  url(../images/4.png) !important;
-    position: absolute;
-    top: 50%;
-    width: 25px !important;
-    height: 20px !important;
-    margin-top: -22px;
-    z-index: 10;
-    cursor: pointer;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .next, .prev {
-    position: absolute;
-    top: 50%;
-    width: 25px !important;
-    height: 20px !important;
-    margin-top: -22px;
-    z-index: 10;
-    cursor: pointer;
-    background-size: 27px 44px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+@media only screen and (max-width: 768px) {
   .container {
     width: 90%;
-    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.1);
-    .copyright-text {
-      bottom: 2%;
+    .login-form {
+      label {
+        font-size: 12px;
+      }
+      .form-check-label {
+        font-size: 12px;
+      }
     }
-    .form-check-label {
-      font-size: 12px;
+    .banner-sec {
+      min-height: 387px;
+      .img-fluid {
+        height: 386px !important;
+        width: 100% !important;
+      }
+    }
+    h2 {
+      font-size: 20px !important;
+    }
+    p {
+      font-size: 10px !important;
     }
   }
   .border-right-radius-10 {
     border-radius: 0px 0px 10px 10px !important;
   }
+  .prev {
+    width: 25px !important;
+    height: 20px !important;
+    &:hover {
+      background-image: url(../images/4.png) !important;
+    }
+  }
+  .next {
+    width: 25px !important;
+    height: 20px !important;
+    &:hover {
+      background-image: url(../images/3.png) !important;
+    }
+  }
+  
 }
-@media only screen and (min-width: 790px) {
+@media (min-width: 767px) and (max-width: 1380px){
   .border-right-radius-10;
   .container {
     width: 90%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .border-right-radius-10;
-  .container {
-    width: 55%;
+    .login-form {
+      label {
+        font-size: 13px;
+      }
+      .form-check-label {
+        font-size: 12px;
+      }
+    }
+    h2 {
+      font-size: 25px !important;
+    }
+    p {
+      font-size: 12px !important;
+    }
+    
+    .prev {
+      width: 30px !important;
+      height: 35px !important;
+      &:hover {
+        background-image: url(../images/previ.png) !important;
+      }
+    }
+    .next {
+      width: 30px !important;
+      height: 35px !important;
+      &:hover {
+        background-image: url(../images/backi.png) !important;
+      }
+    }
   }
 }
