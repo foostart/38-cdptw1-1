@@ -89,7 +89,7 @@
 }
 .type-1196 .admin-panel .admin-content .product-img img#main {
   width: 600px;
-  height: 500px !important;
+  height: 450px;
 }
 .type-1196 .admin-panel .admin-content .product-gallery {
   width: 100%;
@@ -154,7 +154,7 @@
   float: left;
 }
 .type-1196 .admin-panel .admin-content .product-info .product-color ul.color-name li p {
-  margin-bottom: 0;
+  margin-bottom: 14px;
 }
 .type-1196 .admin-panel .admin-content .product-info .product-color ul.color-name li .color {
   width: 25px;
@@ -166,6 +166,7 @@
 .type-1196 .admin-panel .admin-content .product-info .product-color ul.color-name li .green {
   background-color: #1abb9c !important;
   color: #ffffff;
+  margin-left: 9px;
 }
 .type-1196 .admin-panel .admin-content .product-info .product-color ul.color-name li .blue {
   background-color: #3498db !important;
@@ -178,6 +179,7 @@
 .type-1196 .admin-panel .admin-content .product-info .product-color ul.color-name li .orange {
   background-color: #f39c12 !important;
   color: #ffffff;
+  margin-left: 9px;
 }
 .type-1196 .admin-panel .admin-content .product-info .product-size {
   padding: 25px 0;
@@ -211,7 +213,7 @@
 }
 .type-1196 .admin-panel .admin-content .product-info .product-price {
   margin-top: 50px;
-  padding: 5px 10px;
+  padding: 14px 14px;
   background-color: #ffffff;
   text-align: left;
   border: 2px dashed #e0e0e0;
@@ -225,7 +227,7 @@
   font-size: 18px;
 }
 .type-1196 .admin-panel .admin-content .product-info .product-btnadd {
-  margin-top: 25px;
+  margin-top: 37px;
 }
 .type-1196 .admin-panel .admin-content .product-info .product-btnadd .add-to-cart {
   margin-bottom: 5px;
@@ -341,6 +343,19 @@
   }
 }
 @media (max-width: 376px) {
+  .content .content-left h3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    font-size: 20px;
+  }
+  .product-name h3 {
+    font-size: 20px;
+  }
+  .product-btnadd {
+    font-size: 12px;
+  }
   .admin-panel .admin-content .product-img img#main {
     width: 90% !important;
     height: 200px !important;

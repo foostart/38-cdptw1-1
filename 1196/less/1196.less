@@ -95,12 +95,12 @@
       .product-img {
         img#main {
           width: 600px;
-          height: 500px !important;
+          height: 450px;
         }
       }
       .product-gallery {
-        width: 100% ;
-        height: 200px ;
+        width: 100%;
+        height: 200px;
         a {
           width: 170px;
           height: 150px;
@@ -163,7 +163,7 @@
               padding: @padding 5px;
               float: @left;
               p {
-                margin-bottom: @margin;
+                margin-bottom: 14px;
               }
               .color {
                 width: 25px;
@@ -176,6 +176,7 @@
               .green {
                 background-color: #1abb9c !important;
                 color: @background-color;
+                margin-left: 9px;
               }
               .blue {
                 background-color: #3498db !important;
@@ -188,6 +189,7 @@
               .orange {
                 background-color: #f39c12 !important;
                 color: @background-color;
+                margin-left: 9px;
               }
             }
           }
@@ -224,7 +226,7 @@
         }
         .product-price {
           margin-top: 50px;
-          padding: 5px 10px;
+          padding: 14px 14px;
           background-color: @background-color;
           text-align: @left;
           border: 2px dashed @color5;
@@ -238,7 +240,7 @@
           }
         }
         .product-btnadd {
-          margin-top: 25px;
+          margin-top: 37px;
           .add-to-cart {
             margin-bottom: 5px;
             margin-right: 5px;
@@ -303,7 +305,7 @@
     }
   }
 }
-@media (max-width: 2000px) and (min-width: 767px){
+@media (max-width: 2000px) and (min-width: 767px) {
   .content {
     .content-left {
       h3 {
@@ -344,6 +346,8 @@
 }
 
 @media only screen and(max-width: 415px) and (min-width: 376px) {
+  
+
   .admin-panel {
     .admin-content {
       .product-img {
@@ -379,6 +383,25 @@
   }
 }
 @media (max-width: 376px) {
+  .content {
+    .content-left {
+      h3 {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 100%;
+        font-size: 20px;
+      }
+    }
+  }
+  .product-name {
+    h3 {
+      font-size: 20px;
+    }
+  }
+  .product-btnadd{
+    font-size: 12px;
+  }
   .admin-panel {
     .admin-content {
       .product-img {
