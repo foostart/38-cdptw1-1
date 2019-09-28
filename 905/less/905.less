@@ -84,7 +84,6 @@
               border-radius: 3px;
               content: " ";
               display: block;
-              height: @height2;
               margin-top: 20px;
               width: @width0;
             }
@@ -164,7 +163,9 @@
   
 }
 @media (min-width: 767px) and (max-width: 1380px){
-  .border-right-radius-10;
+  .border-right-radius-10 {
+    border-radius: 0px 0px 10px 10px !important;
+  }
   .container {
     width: 90%;
     .login-form {

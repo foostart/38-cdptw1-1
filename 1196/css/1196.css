@@ -85,7 +85,6 @@
 .type-1196 .admin-panel .admin-content .product-img,
 .type-1196 .admin-panel .admin-content .product-name {
   margin-top: 15px;
-  image-rendering: pixelated;
 }
 .type-1196 .admin-panel .admin-content .product-img img#main {
   width: 600px;

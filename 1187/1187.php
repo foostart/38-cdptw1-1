@@ -38,8 +38,7 @@
     <script src="<?php echo $url_path ?>/js/highcharts.js"></script>
     <script src="<?php echo $url_path ?>/js/collapse-close.js"></script>
 </head>
-
-<?php  $dir_block.include'1187-content.php'; ?>
+<body>
+<?php   include $dir_block.'/1187-content.php'; ?>
 </body>
-
 </html>

@@ -56,22 +56,22 @@
                                 <div class="swiper-container product-gallery">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide"> <a href="images/prod-1.jpg"  onclick="swap(this); return false;"><img
-                                                    class="img-responsive re" src="images/prod-1.jpg"></a>
+                                                    class="img-responsive re" src="images/prod-1.jpg" alt="product"></a>
                                         </div>
                                         <div class="swiper-slide"> <a href="images/prod-2.jpg"  onclick="swap(this); return false;"><img
-                                                    class="img-responsive re" src="images/prod-2.jpg"></a>
+                                                    class="img-responsive re" src="images/prod-2.jpg" alt="product"></a>
                                         </div>
                                         <div class="swiper-slide"> <a href="images/prod-3.jpg"  onclick="swap(this); return false;"><img
-                                                    class="img-responsive re" src="images/prod-3.jpg"></a>
+                                                    class="img-responsive re" src="images/prod-3.jpg" alt="product"></a>
                                         </div>
                                         <div class="swiper-slide"> <a href="images/prod-1.jpg"  onclick="swap(this); return false;"><img
-                                                    class="img-responsive re" src="images/prod-1.jpg"></a>
+                                                    class="img-responsive re" src="images/prod-1.jpg" alt="product"></a>
                                         </div>
                                         <div class="swiper-slide"> <a href="images/prod-2.jpg"  onclick="swap(this); return false;"><img
-                                                    class="img-responsive re" src="images/prod-1.jpg"></a>
+                                                    class="img-responsive re" src="images/prod-1.jpg" alt="product"></a>
                                         </div>
                                         <div class="swiper-slide"> <a href="images/prod-3.jpg"  onclick="swap(this); return false;"><img
-                                                    class="img-responsive re" src="images/prod-1.jpg"></a>
+                                                    class="img-responsive re" src="images/prod-1.jpg" alt="product"></a>
                                         </div>
                                     </div>
                                     <div class="swiper-pagination"></div>

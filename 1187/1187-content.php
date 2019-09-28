@@ -153,7 +153,7 @@
                                 <div class="daily-weather">
                                     <h2 class="day">Tue</h2>
                                     <h3 class="degrees">25</h3>
-                                    <canvas height="28px" width="32px" id="rain"></canvas>
+                                    <canvas id="rain" width="32" height="28"></canvas>
                                     <h5>12 <i>km/h</i></h5>
                                 </div>
                             </div>
@@ -161,7 +161,7 @@
                                 <div class="daily-weather">
                                     <h2 class="day">Wed</h2>
                                     <h3 class="degrees">27</h3>
-                                    <canvas height="32" width="32" id="snow"></canvas>
+                                    <canvas id="snow" width="32" height="32"></canvas>
                                     <h5>14 <i>km/h</i></h5>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@
                                 <div class="daily-weather">
                                     <h2 class="day">Thu</h2>
                                     <h3 class="degrees">28</h3>
-                                    <canvas height="32" width="32" id="sleet"></canvas>
+                                    <canvas id="sleet" width="32" height="32"></canvas>
                                     <h5>15 <i>km/h</i></h5>
                                 </div>
                             </div>
@@ -177,7 +177,7 @@
                                 <div class="daily-weather">
                                     <h2 class="day">Fri</h2>
                                     <h3 class="degrees">28</h3>
-                                    <canvas height="28px" width="32" id="wind"></canvas>
+                                    <canvas id="wind" width="32" height="28"></canvas>
                                     <h5>11 <i>km/h</i></h5>
                                 </div>
                             </div>
@@ -185,7 +185,7 @@
                                 <div class="daily-weather">
                                     <h2 class="day">Sat</h2>
                                     <h3 class="degrees">26</h3>
-                                    <canvas height="32" width="32" id="cloudy"></canvas>
+                                    <canvas id="cloudy" width="32" height="32"></canvas>
                                     <h5>10 <i>km/h</i></h5>
                                 </div>
                             </div>
@@ -239,4 +239,10 @@
                             <div id="jqRadialGauge">
                             </div>
 
-                        </div </div> </div> </div> </div> </div> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
