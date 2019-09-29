@@ -308,7 +308,7 @@
   .content {
     .content-left {
       h3 {
-        font-size: 18px !important;
+        font-size: 22px !important;
       }
     }
     .content-right {
@@ -317,7 +317,7 @@
   }
   .product-name {
     h3 {
-      display: inline-block;
+      font-size: 22px;
     }
   }
   .product-img {
@@ -345,8 +345,19 @@
 }
 
 @media only screen and(max-width: 415px) and (min-width: 376px) {
-  
-
+  .product-name {
+    h3 {
+      font-size: 18px;
+    }
+  }
+  .content-left {
+    h3 {
+      font-size: 18px !important;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
   .admin-panel {
     .admin-content {
       .product-img {
@@ -366,7 +377,7 @@
           float: @right;
           margin-left: 10px;
           border: none !important;
-          .re{
+          .re {
             height: 80px !important;
           }
           img {
@@ -392,17 +403,17 @@
         text-overflow: ellipsis;
         overflow: hidden;
         width: 100%;
-        font-size: 20px;
+        font-size: 17px;
       }
     }
   }
   .product-name {
     h3 {
-      font-size: 20px;
+      font-size: 17px;
     }
   }
-  .product-btnadd{
-    font-size: 12px; 
+  .product-btnadd {
+    font-size: 12px;
   }
   .admin-panel {
     .admin-content {
@@ -428,7 +439,7 @@
             height: 60px;
             padding: 10px;
           }
-          .re{
+          .re {
             height: 70px !important;
           }
         }
@@ -482,7 +493,19 @@
       }
     }
   }
-
+  .content-left {
+    h3 {
+      font-size: 20px !important;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+  .product-name {
+    h3 {
+      font-size: 20px;
+    }
+  }
   .product-btnadd {
     .add-to-cart {
       font-size: 15px !important;

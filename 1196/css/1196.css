@@ -86,9 +86,12 @@
 .type-1196 .admin-panel .admin-content .product-name {
   margin-top: 15px;
 }
+.type-1196 .admin-panel .admin-content .product-img {
+  height: 500px !important;
+}
 .type-1196 .admin-panel .admin-content .product-img img#main {
   width: 600px;
-  height: 500px !important;
+  height: 100%;
 }
 .type-1196 .admin-panel .admin-content .product-gallery {
   width: 100%;
@@ -288,13 +291,13 @@
 }
 @media (max-width: 2000px) and (min-width: 767px) {
   .content .content-left h3 {
-    font-size: 18px !important;
+    font-size: 22px !important;
   }
   .content .content-right {
     margin-top: -5px;
   }
   .product-name h3 {
-    display: inline-block;
+    font-size: 22px;
   }
   .product-img img#main {
     width: 100% !important;
@@ -316,6 +319,15 @@
   }
 }
 @media only screen and (max-width: 415px) and (min-width: 376px) {
+  .product-name h3 {
+    font-size: 18px;
+  }
+  .content-left h3 {
+    font-size: 18px !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
   .admin-panel .admin-content .product-img img#main {
     width: 90% !important;
     height: 240px !important;
@@ -350,10 +362,10 @@
     text-overflow: ellipsis;
     overflow: hidden;
     width: 100%;
-    font-size: 20px;
+    font-size: 17px;
   }
   .product-name h3 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .product-btnadd {
     font-size: 12px;
@@ -416,6 +428,15 @@
   }
   .admin-panel .admin-title h3 {
     font-size: 11px !important;
+  }
+  .content-left h3 {
+    font-size: 20px !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .product-name h3 {
+    font-size: 20px;
   }
   .product-btnadd .add-to-cart {
     font-size: 15px !important;
